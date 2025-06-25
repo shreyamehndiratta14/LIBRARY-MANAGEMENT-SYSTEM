@@ -33,3 +33,36 @@ Each BorrowRecord links a Member to a Book with a borrow and return date
  Keys Used:
 Primary Keys: Uniquely identify records in all tables
 Foreign Keys: Maintain referential integrity between related tables
+
+# Library Management System – Task 2
+
+## Objective
+This task demonstrates how to perform **data insertion**, **handling of null values**, and **update/delete operations** in a MySQL-based Library Management System using SQL scripts.
+ Tools Used
+- MySQL Workbench / DB Fiddle / SQLiteStudio
+- SQL (Structured Query Language)
+- GitHub for submission and version control
+ 
+##  Key Operations Covered
+
+### INSERT INTO
+Used to add initial data to the following tables:
+- `Authors`
+- `Books`
+- `Members`
+- `BorrowRecords`
+
+###  Handling NULL Values
+- ISBN field in `Books` is allowed to be `NULL` for incomplete records.
+- `ReturnDate` in `BorrowRecords` can be `NULL` for books not yet returned.
+
+###  UPDATE with WHERE
+- Updated member name in the `Members` table.
+- Filled in a missing ISBN in the `Books` table.
+
+###  DELETE with WHERE
+- Deleted an incorrectly inserted borrow record.
+- Removed a deactivated member.
+
+
+
