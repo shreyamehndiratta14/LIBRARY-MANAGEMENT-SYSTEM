@@ -1,0 +1,4 @@
+BookID,Title,Genre,ISBN,AuthorID
+101,"Harry Potter and the Sorcerer's Stone",Fantasy,9780747532699,1
+102,1984,Dystopian,9780451524935,2
+103,"Kafka on the Shore","Magical Realism",9781400079278,3
